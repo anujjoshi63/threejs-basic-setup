@@ -1,4 +1,5 @@
-import * as THREE from "../node_modules/three/src/Three.js";
+// import * as THREE from "https://raw.githubusercontent.com/mrdoob/three.js/master/build/three.js";
+import "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";
 import { OrbitControls } from "https://unpkg.com/three@0.120.1/examples/jsm/controls/OrbitControls";
 let camera, scene, renderer;
 scene = new THREE.Scene();
